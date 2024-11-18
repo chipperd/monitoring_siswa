@@ -4,9 +4,9 @@ import '../models/attendance_history.dart';
 
 class AttendanceProvider with ChangeNotifier {
   final List<Student> _students = [
-    Student(name: 'Ali'),
-    Student(name: 'Budi'),
-    Student(name: 'Citra'),
+    Student(name: 'eric'),
+    Student(name: 'chipper'),
+    Student(name: 'zira'),
   ];
 
   final List<AttendanceHistory> _history = [];
