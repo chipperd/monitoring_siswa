@@ -1,11 +1,11 @@
+import 'package:monitoring_siswa/models/student.dart';
+
 class AttendanceHistory {
   final DateTime date;
-  final int presentCount;
-  final int absentCount;
+  final List<Student> students;
 
   AttendanceHistory({
     required this.date,
-    required this.presentCount,
-    required this.absentCount,
+    this.students = const [], required int presentCount, required int absentCount, // Default sebagai list kosong
   });
 }

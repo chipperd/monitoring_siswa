@@ -34,9 +34,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
-  final _pages = const [
-    AttendanceScreen(),
-    HistoryScreen(),
+  final _pages = [
+    const AttendanceScreen(),
+    const HistoryScreen(),
   ];
 
   void _onItemTapped(int index) {
